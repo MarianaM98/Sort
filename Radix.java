@@ -1,6 +1,7 @@
 import java.util.*;
 public class Radix {
-    
+    //Funcion tomada de: Data Structures in Java for the Principled Programmer
+    //Duane A. Bailey
     public int getMax(int arr[],int n)
     {
         int mx=arr[0];
