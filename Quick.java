@@ -1,6 +1,7 @@
 import java.util.*;
 public class Quick {
-    
+    //Funcion tomada de: Data Structures in Java for the Principled Programmer
+    //Duane A. Bailey
     public void quickSort(int [] arr, int start, int end){
     if(start < end){
         int q = partition(arr, start, end);
